@@ -257,19 +257,22 @@ footer a {
 }
 @media screen and (max-width:360px) {
 	.pdown {
-		color: blue;
+		background-color: green;
 		width: 90%;
-		margin: 0;
 		display: flex;
 		font-size: 15px;
-		text-align: left;
 		margin-top: 7px;
-		float: left;
 		text-align: left;
 		margin: 8%;
+		margin: auto;
 		justify-content: space-around;
 	}
-
+	footer {
+		 height: 0px;
+		 bottom: 0;
+		 font-size: 13px;
+		 width: 90%;
+	}
 }
 @media screen and (min-width:361px) and (max-width:736px){
 	.pdown {
@@ -608,25 +611,25 @@ footer a {
 		font-size: 20px;
 	}
 	.img1 {
-		margin-top: 30px;
+		margin-top: 25px;
 	}
 	.img2 {
-		margin-top: 40px;
+		margin-top: 35px;
 	}
 	.img3 {
 		display: block;
-		margin-top: 40px;
+		margin-top: 35px;
 	}
 }
 @media screen and (max-width:320px) {
 	.img1 {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.img2 {
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 	.img3 {
 		display: block;
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 }
