@@ -257,7 +257,6 @@ footer a {
 }
 @media screen and (max-width:360px) {
 	.pdown {
-		background-color: green;
 		width: 90%;
 		display: flex;
 		font-size: 15px;
